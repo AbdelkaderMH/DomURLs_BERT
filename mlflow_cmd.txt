@@ -1,0 +1,1 @@
+mlflow server --backend-store-uri file:mlruns/experiments --host $(hostname -s)
