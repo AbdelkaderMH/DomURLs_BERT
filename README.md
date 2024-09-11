@@ -1,11 +1,19 @@
 # DomURLs_BERT
 
-This repo provides the implementation of **__{DomURLs\_BERT}: Pre-trained BERT-based Model for Malicious Domains and URLs Detection and Classification__** experiments.
+This repo provides the implementation of **__{DomURLs_BERT}: Pre-trained BERT-based Model for Malicious Domains and URLs Detection and Classification__** experiments.
 
 
 ## Fine-Tuning DomURLs_BERT and other Pretrained Language Models for Malicious URL and Domain Name Detection
 
 This guide provides instructions on how to fine-tune pretrained language models (PLMs) using the `main_plm.py` script for detecting malicious URLs and domain names.
+### Requirements
+- Python 3.8
+- torch 2.2
+- transformers 4.39.3
+- lightning 2.1.3
+- mlflow 2.14.2
+
+the full list is in `requirements.txt`
 
 ### Usage
 To fine-tune a model, run the script from the command line with the required parameters. Below is a description of all the parameters and how to use them:
