@@ -87,4 +87,19 @@ python main_charnn.py \
   --device 0
 
 ```
+## Abstract
+ Detecting and classifying suspicious or malicious domain names and URLs is fundamental task in cybersecurity. To leverage such indicators of compromise, cybersecurity vendors and practitioners often maintain and update blacklists of known malicious domains and URLs. However, blacklists frequently fail to identify emerging and obfuscated threats. Over the past few decades, there has been significant interest in developing machine learning models that automatically detect malicious domains and URLs, addressing the limitations of blacklists maintenance and updates. In this paper, we introduce DomURLs_BERT, a pre-trained BERT-based encoder adapted for detecting and classifying suspicious/malicious domains and URLs. DomURLs_BERT is pre-trained using the Masked Language Modeling (MLM) objective on a large multilingual corpus of URLs, domain names, and Domain Generation Algorithms (DGA) dataset. In order to assess the performance of DomURLs_BERT, we have conducted experiments on several binary and multi-class classification tasks involving domain names and URLs, covering phishing, malware, DGA, and DNS tunneling. The evaluations results show that the proposed encoder outperforms state-of-the-art character-based deep learning models and cybersecurity-focused BERT models across multiple tasks and datasets. The pre-training dataset, the pre-trained DomURLs_BERT encoder, and the experiments source code are publicly available.
 
+## Citation
+To be updated
+```bibtex
+@article{domurlsbert2024,
+  title={{DomURLs\_BERT}: Pre-trained BERT-based Model for Malicious Domains and URLs Detection and Classification},
+  author={Abdelkader El Mahdaouy and Salima Lamsiyah and Meryem Janati Idrissi and Hamza Alami and Zakaria Yartaoui and Ismail Berrada},
+  journal={arXiv preprint arXiv:},
+  eprint={},
+  eprinttype = {arXiv},
+  url={https://arxiv.org/abs/},
+  year={2024},
+}
+```
