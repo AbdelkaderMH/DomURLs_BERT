@@ -144,9 +144,6 @@ def main(args):
         pickle.dump(experiment_params, f)
     mlflow.log_artifact(path_metadata, artifact_path=f"model_metadata.p")
 
-    # Logging best checkpoint artifact
-    mlflow.log_artifact(trainer.checkpoint_callback.best_model_path, artifact_path=f"checkpoints")
-
     # Logging classification report artifact
     test_report_path = f"{checkpoint_path}/test_classification_report.txt"
     with open(test_report_path, 'w') as f:
