@@ -95,7 +95,7 @@ python main_charnn.py \
 ```bibtex
 @article{domurlsbert2024,
   title={{DomURLs\_BERT}: Pre-trained BERT-based Model for Malicious Domains and URLs Detection and Classification},
-  author={Abdelkader El Mahdaouy and Salima Lamsiyah and Meryem Janati Idrissi and Hamza Alami and Zakaria Yartaoui and Ismail Berrada},
+  author={Abdelkader {El Mahdaouy} and Salima Lamsiyah and Meryem {Janati Idrissi} and Hamza Alami and Zakaria Yartaoui and Ismail Berrada},
   journal={arXiv preprint arXiv:2409.09143},
       year={2024},
       eprint={2409.09143},
